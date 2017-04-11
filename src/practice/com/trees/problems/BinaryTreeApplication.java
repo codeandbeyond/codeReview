@@ -4,7 +4,7 @@ import com.trees.problems.*;
 import com.trees.problems.BinaryTree;
 
 public class BinaryTreeApplication {
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		com.trees.problems.BinaryTree tree = new com.trees.problems.BinaryTree();
 		tree.root = new com.trees.problems.Node(50);
 		tree.root.left = new com.trees.problems.Node(25);
@@ -28,5 +28,5 @@ public class BinaryTreeApplication {
 		com.trees.problems.BinaryTree.levelOrderTraversalQ();
 		tree.printLeafPath();
 BinaryTree.binaryTreeToDll();
-	}
+	}*/
 }

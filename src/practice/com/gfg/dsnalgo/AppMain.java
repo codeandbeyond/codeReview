@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-import com.gfg.dsnalgo.ExpressionEvaluator.EXPRESSIONTYPE;
 
 public class AppMain {
 public static void main(String[] args) {
@@ -43,8 +42,8 @@ parent2.print();
 	System.out.println(e2);
 	Stack stack=new Stack();
 
-	ExpressionEvaluator exev=new ExpressionEvaluator("+538", EXPRESSIONTYPE.Prefix);
+	/*ExpressionEvaluator exev=new ExpressionEvaluator("+538", EXPRESSIONTYPE.Prefix);
 	
-	System.out.println("(+546) =  "+exev.GetInfixExpression()+" "+exev.GetValue());
+	System.out.println("(+546) =  "+exev.GetInfixExpression()+" "+exev.GetValue());*/
 }
 }
